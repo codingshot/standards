@@ -1,6 +1,6 @@
 # Project
 
-A `Project` with `metadata`, `members`, and `tasks`.
+A `Project` with `metadata`, `owners`, and `tasks`.
 
 This standard is in DRAFT mode. It may be heavily changed in the future.
 
@@ -9,7 +9,7 @@ This standard is in DRAFT mode. It may be heavily changed in the future.
 | Key | Type  | Description |
 |----------------|------------------------------------------|----------------------------------------------------------------|
 | `metadata` | [Metadata](../common/Metadata.md) | information describing a project |
-| **`members`** | [Account List](../common/AccountList.md) | list of accounts that are connected to a project |
+| **`owners`** | [Account List](../common/AccountList.md) | list of accounts that control a project |
 | **`tasks`** | [Tasks](Tasks.md) | list of specific tasks (with rewards) |
 
 ## Example
@@ -37,7 +37,7 @@ This standard is in DRAFT mode. It may be heavily changed in the future.
       "open-source": ""
     }
   },
-  "members": {
+  "owners": {
     "root.near": "",
     "mob.near": "",
     "infinity.near": ""
