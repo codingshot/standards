@@ -1,6 +1,6 @@
 # Projects
 
-`Projects` with `metadata`, `members`, and `tasks`.
+`Projects` with `metadata`, `owners`, and `tasks`.
 
 This standard is in DRAFT mode. It may be heavily changed in the future.
 
@@ -36,7 +36,7 @@ This standard is in DRAFT mode. It may be heavily changed in the future.
             "open-source": ""
         }
     },
-    "members": {
+    "owners": {
         "root.near": "",
         "mob.near": "",
         "infinity.near": ""
