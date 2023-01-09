@@ -19,9 +19,9 @@ This standard is in DRAFT mode. It may be heavily changed in the future.
         "name": "TODO",
         "description": "Create ...",
         "tags": {
-        "design": "",
-        "art": "",
-        "community": ""
+          "design": "",
+          "art": "",
+          "community": ""
         }
     },
     "token": "meta-token.near",
